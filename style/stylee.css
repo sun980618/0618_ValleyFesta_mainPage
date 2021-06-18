@@ -1,0 +1,45 @@
+@charset "UTF-8";
+@import url(style_reset.css);
+
+div#wrap {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+header#header {
+    width: 200px;
+}
+
+div#headerLogo {
+    text-align: center;
+    padding: 20px 0;
+}
+
+/*nav#gnb {
+    border: 1px solid #000;
+}*/
+
+ul#mainMenu {
+    text-align: center;
+   /* border: 1px solid #f00;*/
+}
+
+/*li.mainLi {
+    border: 1px solid #08f;
+}*/
+
+nav#gnb a {
+    width: 160px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 50px;
+    border: 1px solid #000;
+    background-color: #dbe9f8;
+
+    display: inline-block
+}
+
+li.mainLi:not(:last-child) a {
+    border-bottom: none; /*왼쪽에 4개표 줄 얇게 만들기*/
+}
