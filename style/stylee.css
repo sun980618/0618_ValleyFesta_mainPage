@@ -29,6 +29,9 @@ ul#mainMenu {
 }*/
 
 nav#gnb a {
+                <div id="slide"></div>
+                <div id="contents"></div>
+                <footer id="footer"></footer>
     width: 160px;
     height: 50px;
     font-size: 18px;
@@ -43,3 +46,86 @@ nav#gnb a {
 li.mainLi:not(:last-child) a {
     border-bottom: none; /*왼쪽에 4개표 줄 얇게 만들기*/
 }
+
+main#main {
+    width: 800px;
+}
+
+div#slide {
+    position: relative;
+}
+div#slide span {
+    width: 400px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.78);
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%)
+}
+
+div#contents {
+    justify-content: space-around;
+}
+
+#contents>div {
+    padding: 6px;
+    border: 1px solid #08f;
+}
+
+#contents>div#notice {
+    width: 300px;
+}
+
+#contents>div#gallery {
+    width: 300px;
+}
+
+#contents>div#shortcut {
+    width: 190px;
+}
+
+#contents button {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 2px 14px;
+    border: 1px solid #000;
+    border-bottom-color: #eee;
+    margin-left: 30px;
+
+    position: relative;
+    top: 1px;
+}
+
+#contents div.tabContents {
+    border: 1px solid #aaa;
+}
+
+#contents td {
+    font-size: 15px;
+}
+
+#contents div#notice td {
+    line-height: 29px;
+}
+
+#contents div#notice td:first-child {
+    padding-right: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
