@@ -118,10 +118,30 @@ div#contents {
     padding-right: 16px;
 }
 
+div#footerLogo,div#familySite {
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
 
+div#compabyInfo {
+    -webkit-flex: 1px;
+    -moz-flex: 1px;
+    -ms-flex: 1px;
+    -o-flex: 1px;
+    flex: 1px;
+}
 
+div#familySite select{
+    font-size: 24px;
+    font-weight: bold;
+}
 
-
+#footer address {
+ height: 50px;
+    line-height: 50;
+}
 
 
 

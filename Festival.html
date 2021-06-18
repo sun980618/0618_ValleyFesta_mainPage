@@ -1,30 +1,36 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <title>Vally Festival</title>
     <link rel="stylesheet" href="style/stylee.css">
 </head>
+
 <body>
-   <!-- div#wrap>header>header+maim#main>div#slide+div#contents+footer#footer-->
+    <!-- div#wrap>header>header+maim#main>div#slide+div#contents+footer#footer-->
     <div id="wrap" class="flex-Container">
         <header>
             <header>
                 <div id="headerLogo">
-                <a href="#">
-                <img src="images/Logo_header_01_160x32.png" alt="header"></a>
+                    <a href="#">
+                        <img src="images/Logo_header_01_160x32.png" alt="header"></a>
                 </div>
                 <!--nav#gnb>ul#mainMenu>li.mainLi*4>a[href=#]-->
                 <nav id="gnb">
                     <ul id="mainMenu">
                         <li class="mainLi">
-                        <a href="#">축제소개</a></li>
+                            <a href="#">축제소개</a>
+                        </li>
                         <li class="mainLi">
-                        <a href="#">예약안내</a></li>
+                            <a href="#">예약안내</a>
+                        </li>
                         <li class="mainLi">
-                        <a href="#">아티스트</a></li>
+                            <a href="#">아티스트</a>
+                        </li>
                         <li class="mainLi">
-                        <a href="#">커뮤니티</a></li>
+                            <a href="#">커뮤니티</a>
+                        </li>
                     </ul>
                 </nav>
             </header>
@@ -35,26 +41,26 @@
 
                 <div id="contents">
                     <div id="notice">
-                       <!-- button[type=button class=tabBtn]{공지사항}+div.tabContents-->
-                       <button type="button" class="tabBtn">공지사항</button>
-                       <div class="tabContents">
-                           <table>
-                               <tbody>
-                                   <tr>
-                                       <td>남도여수</td>
-                                       <td>1</td>
-                                   </tr>
-                                   <tr>
-                                       <td>valley rock</td>
-                                       <td>2</td>
-                                   </tr>
-                                   <tr>
-                                       <td>이벤트 발표 사연 당첨</td>
-                                       <td>3</td>
-                                   </tr>
-                               </tbody>
-                           </table>
-                       </div>
+                        <!-- button[type=button class=tabBtn]{공지사항}+div.tabContents-->
+                        <button type="button" class="tabBtn">공지사항</button>
+                        <div class="tabContents">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>남도여수</td>
+                                        <td>1</td>
+                                    </tr>
+                                    <tr>
+                                        <td>valley rock</td>
+                                        <td>2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>이벤트 발표 사연 당첨</td>
+                                        <td>3</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                     <div id="gallery">
                         <!--button[type=button class=tabBtn]{공갤러리}+div.tabContents-->
@@ -76,12 +82,27 @@
                     </div>
                 </div>
 
-                <footer id="footer">
+                <footer id="footer" clsss="flex-Container">
+                    <div id="footerLogo">
+                    <a href="#"><img src="images/Logo_footer_01_160x32.png" alt="" footerLogo></a></div>
+                    <div id="companInfo">
+                        <adress>서울시</adress>
+                        <div id="copyright">copyright(c)2010infrastucture oropration </div>
+                    </div>
 
+                    <div id="familysite">
+                        <select>
+                            <option>facebook</option>
+                            <option>twitter</option>
+                            <option>instargram</option>
+                        </select>
+
+                    </div>
                 </footer>
             </maim>
         </header>
     </div>
 
 </body>
+
 </html>
